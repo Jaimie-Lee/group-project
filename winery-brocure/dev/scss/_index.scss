@@ -1,6 +1,3 @@
-
-
-
 /**********************************
 index.scss
 **********************************/
@@ -50,9 +47,6 @@ index.scss
 }
 /* section : bistro end*/
 
-
-
-
 /* section : wines start*/
 .section-container {
     text-align: center;
@@ -88,9 +82,6 @@ index.scss
 }
 /* section : wines end*/
 
-
-
-
 /* section : shop-online start*/
 .shop-online-content {
     position: absolute;
@@ -110,8 +101,6 @@ index.scss
     margin-bottom: 10px;
 }
 /* section : shop-online end*/
-
-
 
 /* section : wine-tour start*/
 .tour-content {
@@ -133,7 +122,14 @@ index.scss
 }
 /* section : wine-tour end*/
 
+/* min-width: 570px */
 @media (min-width: 570px) {
+
+    .index-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+    }
   
     /* section : bistro start*/
     .bistro h2 {
@@ -167,7 +163,6 @@ index.scss
         margin-bottom: 20px;
     }
 }
-
 
 
 /* min-width: 760px */

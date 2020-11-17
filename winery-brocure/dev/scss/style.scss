@@ -1,14 +1,17 @@
 // Resets
-@use 'resets';
-@use 'btn';
+@import 'resets';
+@import 'btn';
 
 
 // Site Sections
-@use 'wrapper';
-@use 'banner';
-@use 'site';
-@use 'index';
-@use 'header';
-@use 'footer';
+@import 'wrapper';
+@import 'banner';
+@import 'site';
+@import 'header';
+@import 'footer';
 
-
+//Page Sections
+@import 'index';
+@import 'white-wines';
+@import 'red-wines';
+@import 'order';
