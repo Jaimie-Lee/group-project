@@ -1,0 +1,86 @@
+
+/***************************
+    use common footer.scss
+***************************/
+footer .footer-wrapper {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #1b080d;
+}
+
+footer .footer-container {
+    max-width: 1200px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+footer .footer-container p {
+    font-size: 1em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer .footer-container p:last-child {
+    text-transform: uppercase;
+}
+
+footer .go-to-up {
+    z-index: 5;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    font-size: 1.5em;
+    padding-top: 4px;
+    background-color: #1b080d;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+footer .go-to-up a {
+    text-decoration: none;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    background-color: transparent
+}
+
+.footer-wrapper .btn-go-to-up {
+    visibility: visible;
+    opacity: 1;
+}
+
+footer .go-to-up .fa-chevron-up{
+    color: white;
+}
+
+/* min-width: 760px */
+@media (min-width: 760px) {
+
+    footer .footer-container p {
+        text-align: left;
+    }
+}
+
+/* min-width: 1200px */
+@media (min-width: 1200px) {
+
+    footer .footer-container {
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
+
+
+
