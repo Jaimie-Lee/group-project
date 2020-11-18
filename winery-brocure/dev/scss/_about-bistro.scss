@@ -1,0 +1,75 @@
+/* About bistro*/
+
+#about {
+ background-color: var(--color-beige);
+ width: 100%;
+ text-align: center;
+}
+
+.about__bistro {
+ padding: 20px 0;
+ text-align: center;
+ background-color: var(--color-cocoa);
+}
+
+.about__description {
+ text-align: center;
+ padding: 30px 30px;
+}
+
+.about__bistro__name h2 {
+ margin-top: 50px;
+ margin-bottom: 20px;
+ font-weight: var(--weight-semi-bold);
+}
+
+.about__bistro__name p {
+ padding: 0px 20px 15px 20px;
+}
+
+.about__container {
+ display: flex;
+ flex-direction: column;
+ width: 90%;
+ text-align: center;
+ margin: 0px auto;
+}
+
+.about__container p {
+ margin: 20px 0;
+}
+
+.bistro__container__second {
+ display: flex;
+ flex-direction: column;
+ width: 90%;
+ text-align: center;
+ margin: 0 auto;
+}
+
+.bistro__container__second img {
+ padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+ :root {
+  /* Font size */
+  --font-large: 50px;
+  --font-medium: 25px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+ }
+
+ .bistro__container__second {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+ }
+
+ .bistro__container__second img {
+  padding: 50px 25px;
+ }
+}

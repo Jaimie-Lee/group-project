@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth Estate Winery</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- mobile hamburger menu start -->
+        <div id="menu-container">
+            <div id="menu-wrapper">
+                <div id="hamburger-menu"><span></span><span></span><span></span></div>
+                <!-- hamburger-menu -->
+            </div>
+            <!-- menu-wrapper -->
+            <ul class="menu-list accordion">
+                <li id="nav1" class="toggle accordion-toggle">
+                    <span class="icon-plus"></span>
+                    <a class="menu-link" href="#">Wines</a>
+                </li>
+                <!-- accordion-toggle -->
+                <ul class="menu-submenu accordion-content">
+                    <li><a class="head" href="wine-about-our-wines.html"><i class="fa fa-caret-right"
+                                aria-hidden="true"></i>&nbsp;About Our Wines</a></li>
+                    <li><a class="head" href="wine-white-wines.html"><i class="fa fa-caret-right"
+                                aria-hidden="true"></i>&nbsp;White Wine</a></li>
+                    <li><a class="head" href="wine-red-wines.html"><i class="fa fa-caret-right"
+                                aria-hidden="true"></i>&nbsp;Red Wine</a></li>
+                </ul>
+                <!-- menu-submenu accordon-content-->
+                <li id="nav2" class="toggle accordion-toggle">
+                    <span class="icon-plus"></span>
+                    <a class="menu-link" href="#">Bistro</a>
+                </li>
+                <!-- accordion-toggle -->
+                <ul class="menu-submenu accordion-content">
+                    <li><a class="head" href="bistro-about-our-bistro.html"><i class="fa fa-caret-right"
+                                aria-hidden="true"></i>&nbsp;About Our Bistro</a></li>
+                    <li><a class="head" href="bistro-menus.html"><i class="fa fa-caret-right"
+                                aria-hidden="true"></i>&nbsp;Menus</a></li>
+                </ul>
+                <!-- menu-submenu accordon-content-->
+                <li id="nav3" class="toggle accordion-toggle">
+                    <span class="icon-plus"></span>
+                    <a class="menu-link" href="#">About</a>
+                </li>
+                <!-- accordion-toggle -->
+                <ul class="menu-submenu accordion-content">
+                    <li><a class="head" href="about-our-story.html"><i class="fa fa-caret-right"
+                                aria-hidden="true"></i>&nbsp;Our Story</a></li>
+                </ul><!-- menu-submenu accordon-content-->
+            </ul><!-- menu-list accordion-->
+        </div><!-- menu-container -->
+        <!-- mobile hamburger menu end -->
+
+        <!-- full site nav start-->
+        <div class="full-site">
+            <div class="header-row">
+                <div class="col-1">
+                    <div class="left-side-menu">
+                        <ul id="main-menu" class="menu">
+                            <li id="menu-item-1" class="menu-item menu-has-children">
+                                <a href="#">Wines</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-about-wines"><a
+                                            href="wine-about-our-wines.html">About
+                                            Our Wines</a></li>
+                                    <li class="menu-item menu-item-white-wine"><a href="wine-white-wines.html">White
+                                            Wine</a></li>
+                                    <li class="menu-item menu-item-red-wine"><a href="wine-red-wines.html">Red Wine</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-2" class="menu-item menu-has-children">
+                                <a href="#">Bistro</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-about-bistro"><a
+                                            href="bistro-about-our-bistro.html">About Our Bistro</a></li>
+                                    <li class="menu-item menu-item-menus"><a href="bistro-menus.html">Menus</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-3" class="menu-item menu-has-children">
+                                <a href="#">About</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-menus"><a href="about-our-story.html">Our Story</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="images/white-logo.png" alt="Full Site Elizabath Estates Logo" class="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="right-side-menu">
+                        <ul class="right-menu">
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- full site nav end-->
+        <!-- mobile nav start-->
+        <div class="mobile-site">
+            <ul>
+                <li class="mobile-logo">
+                    <a href="index.html">
+                        <picture>
+                            <source srcset="images/wine-mobile-small-logo.png" media="(max-width:759px)">
+                            <img src="images/wine-small-logo.png" alt="Mobile Elizabath Estates Logo">
+                        </picture>
+                    </a></li>
+                <li class="menu-items">
+                    <a href="#">Cart<img src="images/cart-mobile.png" alt="cart"></a>
+                </li>
+            </ul>
+        </div><!-- mobile nav end-->
+    </header>
+
+
+  <!--About bistro-->
+    <section id="about">
+        <div class="about__story">
+          <h2>ABOUT OUR BISTRO</h2>
+        </div>
+        <div class="about__description">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, odit. 
+            Possimus recusandae aperiam eius omnis enim, nobis a consectetur nulla maxime, 
+            explicabo suscipit, aliquid numquam odit voluptatibus qui aliquam ipsum?
+          </p>
+        </div>
+        <div class="about__stroy__name">
+          <h2>Gather Together</h2>
+          <p>
+            Whether you are looking for a place to host your next small corporate event, 
+            birthday, anniversary dinner, or other special occasion, we would love to be 
+            a part of your event.
+          </p>
+        </div>
+        <div class="about__container">
+          <img class="bistro__main__img" src="images/about-bistro-main.jpg" alt="bistro__maing__img" >
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt voluptatibus 
+            nesciunt doloribus! Ut, vitae. Itaque dolore amet, dicta cumque fugiat quaerat hic, possimus 
+            quisquam maxime adipisci aliquid optio voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Non quo cumque enim consectetur deserunt magnam ut, saepe est maiores, quasi rem facilis quaerat ab placeat 
+            dolores illo reiciendis autem iste.
+          </p>
+        </div>
+        <div class="bistro__container__second">
+          <img class="bistro__second__img1" src="images/bistro-slider-01.jpg" alt="bistro__second__img1">
+          <img class="bistro__second__img2" src="images/bistro-slider-02.jpg" alt="bistro__second__img2">
+          <img class="bistro__second__img3" src="images/bistro-slider-03.jpg" alt="bistro__second__img3">
+        </div>
+    </section>
+
+  <!-- footer site nav start -->
+  <div class="site-wrapper">
+    <div class="site-container">
+        <div class="site-row">
+            <div class="col-site">
+                <h3>Wines</h3>
+                <div class="site-menus">
+                    <ul>
+                        <li><a href="wine-about-our-wines.html">About Our Wine</a></li>
+                        <li><a href="wine-white-wines.html">White Wine</a></li>
+                        <li><a href="wine-red-wines.html">Red Wine</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-site">
+                <h3>Bistro</h3>
+                <div class="site-menus">
+                    <ul>
+                        <li><a href="bistro-about-our-bistro.html">About Bistro</a></li>
+                        <li><a href="bistro-menus.html">Menu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-site">
+                <h3>About</h3>
+                <div class="site-menus">
+                    <ul>
+                        <li><a href="about-our-story.html">Our Story</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-site">
+                <h3>Tour</h3>
+                <div class="site-menus">
+                    <ul>
+                        <li><a href="tour.html">Wine Tours</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div> <!-- footer site nav end -->
+
+  <!-- footer start -->
+  <footer>
+    <div class="footer-wrapper">
+        <div class="footer-container">
+            <p>Elizabeth Estate Winery is Okanagan Valley’s oldest winery. Located in Kelowna, just 4 hours
+                from Vancouver, Elizabeth Estate Winery offers wine tours, spectacular vineyard views, a tasting
+                room, and a bistro servingfresh cuisine from local sources.</p>
+            <p>(C) 2020 Elizabeth Estate Winery | 7932 779 Street, Kelowna, BC V2E 1R3 </p>
+            <p>ONLY EDUCATIONAL PURPOSES ONLY.&nbsp;&nbsp;Made by Jaimie & Denis.</p>
+        </div>
+        <div class="go-to-up">
+            <a href="#" class="btn-go-to-up"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="./scripts/script.js"></script>
+</body>
+
+</html>
