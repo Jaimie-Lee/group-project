@@ -69,6 +69,11 @@
     letter-spacing: 1px;
 }
 
+.col-site .site-menus li a:hover,
+.col-site .site-menus li a:focus,
+.col-site .site-menus li a:active {
+    color: rgb(248, 112, 0);
+}
 
 /* min-width: 760px */
 @media (min-width: 760px) {

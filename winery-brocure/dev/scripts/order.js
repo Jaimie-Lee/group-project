@@ -1,10 +1,12 @@
+//move to order.html when clicked single wine image
 $(document).ready(function () {
-    //move to order.html when clicked single wine image
+
     $('.gallery img').click(function () {
         window.location.href = 'order.html';
     });
 });
 
+//show each detail large image in the box when clicked small image
 $('.show-detail img').click(function () {
     if (this.src != null) {
         let val = this.src.substring(0, this.src.length - 4);
