@@ -4,6 +4,15 @@
     height: 50px;
     text-align: center;
     vertical-align: middle;
+    margin-bottom: 20px;
+    span {
+        cursor: pointer;
+    }
+
+    span:hover,
+    span:focus {
+        color: rgb(255, 174, 0);
+    }
 
     span:first-child {
         font-size: 1.9em;
@@ -21,7 +30,7 @@
         /* min-width: 1200px */
         @media (min-width: 1200px) {
             margin: 0 10px;
-            font-size: 2.1em;
+            font-size: 2em;
         }
     }
 

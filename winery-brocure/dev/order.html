@@ -4,6 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon start-->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <!-- favicon end -->
     <title>Elizabeth Estate Winery</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -55,6 +77,16 @@
                 <ul class="menu-submenu accordion-content">
                     <li><a class="head" href="about-our-story.html"><i class="fa fa-caret-right"
                                 aria-hidden="true"></i>&nbsp;Our Story</a></li>
+                </ul><!-- menu-submenu accordon-content-->
+                <!-- menu-submenu accordon-content-->
+                <li id="nav4" class="toggle accordion-toggle">
+                    <span class="icon-plus"></span>
+                    <a class="menu-link" href="#">Contact</a>
+                </li>
+                <!-- accordion-toggle -->
+                <ul class="menu-submenu accordion-content">
+                    <li><a class="head" href="about-contact.html"><i class="fa fa-caret-right"
+                                aria-hidden="true"></i>&nbsp;Contact</a></li>
                 </ul><!-- menu-submenu accordon-content-->
             </ul><!-- menu-list accordion-->
         </div><!-- menu-container -->
@@ -131,13 +163,82 @@
     </header>
 
     <main>
+        <!-- main wrapper start -->
+        <div class="wrapper">
+            <div class="order-container">
+                <h1>2020 Okanagan Valley BC V00</h1>
+                <div class="order-row">
+                    <div class="order-col-1">
+                        <div class="detail-product">
+                            <img id="detail-wine" src="images/red-wine-01.png" alt="red wine 01">
+                        </div>
+                        <ul class="show-detail">
+                            <li><img id="detail-red-wine-01" src="images/detail-red-wine-01.png"
+                                    alt="detail red wine 01"></li>
+                            <li><img id="detail-red-wine-02" src="images/detail-red-wine-02.png"
+                                    alt="detail red wine 02"></li>
+                            <li><img id="detail-red-wine-03" src="images/detail-red-wine-03.png"
+                                    alt="detail red wine 03"></li>
+                        </ul>
+                    </div>
 
+                    <div class="order-col-1">
+                        <div class="order-summary">
+                            <p>$12.99</p>
+                            <form action="#" method="post">
+                                <fieldset class="order-confirm">
+                                    <div class="order-purchase">
+                                        <label for="purchase-by">Purchase by</label><br>
+                                        <select name="purchase-by" id="purchase-by">
+                                            <option value>Choose an option</option>
+                                            <option value="bottle">Bottle</option>
+                                            <option value="box">Box</option>
+                                        </select>
+                                    </div>
+                                    <div class="order-quantity">
+                                        <label for="quantity">Quantity:</label><br>
+                                        <input type="number" id="quantity" value="1" class="quantity-number">
+                                        <button type="button" class="minus">-</button>
+                                        <button type="button" class="plus">+</button>
+                                        <p>
+                                            <a class="btn" href="#0">Buy</a>
+                                        </p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut fugiat eius
+                                            natus beatae culpa, similique sint voluptatem ipsam voluptas perferendis
+                                            aliquam unde dicta suscipit veritatis ab ullam tenetur. Molestiae, odio?
+                                        </p>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
 
-
-
-
-
-
+                    <div class="order-col-1">
+                        <div class="recommendation">
+                            <h2>You Might Also Like:</h2>
+                            <div class="recommendation-galleries">
+                                <div class="gallery">
+                                    <img id="red-wine-01" src="images/red-wine-01.png" alt="red wine w-1">
+                                    <h3 class="price">$18.99</h3>
+                                </div>
+                                <div class="gallery">
+                                    <img id="red-wine-08" src="images/red-wine-08.png" alt="red wine w-1">
+                                    <h3 class="price">$22.99</h3>
+                                </div>
+                                <div class="gallery">
+                                    <img id="red-wine-03" src="images/red-wine-03.png" alt="red wine w-1">
+                                    <h3 class="price">$13.99</h3>
+                                </div>
+                                <div class="gallery">
+                                    <img id="red-wine-07" src="images/red-wine-07.png" alt="red wine w-1">
+                                    <h3 class="price">$14.99</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- footer site nav start -->
         <div class="site-wrapper">
@@ -201,6 +302,7 @@
     <!-- footer end -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/order.js"></script>
 </body>
 
 </html>

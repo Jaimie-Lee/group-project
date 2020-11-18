@@ -80,6 +80,12 @@ index.scss
     border: 1px solid rgba(0,0,0,.2);
     background-color: rgba(214, 214, 214, 0.5);
 }
+
+.wine-col img:hover,
+.wine-col img:focus {
+    border: 1px solid  rgba(231, 15, 15, 0.7);
+    cursor: pointer;
+}
 /* section : wines end*/
 
 /* section : shop-online start*/
