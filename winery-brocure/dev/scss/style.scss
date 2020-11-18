@@ -11,9 +11,13 @@
 @import 'site';
 @import 'header';
 @import 'footer';
+@import 'variables';
+@import 'type';
 
 //Page Sections
 @import 'index';
 @import 'white-wines';
 @import 'red-wines';
 @import 'order';
+@import 'about-bistro';
+@import 'about-wine';
