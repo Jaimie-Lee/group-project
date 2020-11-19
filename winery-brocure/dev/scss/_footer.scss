@@ -29,9 +29,7 @@ footer .footer-container p:last-child {
         letter-spacing: 1px;
     }
 
-    a:hover,
-    a:active,
-    a:focus {
+    a:hover {
         color: rgb(255, 166, 0);
         transition: color .9s ease;
     }
