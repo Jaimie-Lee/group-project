@@ -23,6 +23,18 @@ footer .footer-container p {
 
 footer .footer-container p:last-child {
     text-transform: uppercase;
+    a {
+        color: rgb(243, 227, 8);
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+
+    a:hover,
+    a:active,
+    a:focus {
+        color: rgb(255, 166, 0);
+        transition: color .9s ease;
+    }
 }
 
 footer .go-to-up {

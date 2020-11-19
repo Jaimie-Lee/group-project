@@ -1,6 +1,3 @@
-/****************************
-    Header.scss
-****************************/
 /* full-site nav:none */
 header .full-site {
     display: none;
@@ -90,6 +87,10 @@ header .full-site ul li a {
     text-decoration: none;
 }
 
+header .full-site ul li a:hover {
+    color: black;
+}
+
 header .full-site .left-side-menu ul li:hover {
     background-color: rgb(202, 202, 202);
 }
@@ -137,11 +138,13 @@ header .full-site .left-side-menu .sub-menu li a {
     margin-bottom: 15px;
     text-align: center;
 }
+
 .header-logo img {
     border: 0;
     height: auto;
     vertical-align: middle;
 }
+
 .right-side-menu .right-menu {
     display: block;
     list-style: none;
