@@ -1,5 +1,5 @@
 /**********************************
-index.scss
+    index.scss
 **********************************/
 /* section : bistro start*/
 .bistro,
@@ -52,17 +52,20 @@ index.scss
     text-align: center;
 }
 .section-container .special-span {
-    font-size: 1.5em;
+    font-size: 1.8em;
     line-height: 40px;
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .section-container .special-p {
     font-size: 1em;
     margin-top: 10px;
+    margin-bottom: 20px;
     line-height: 15px;
+    text-transform: uppercase;
 }
 
 .section-container .product {

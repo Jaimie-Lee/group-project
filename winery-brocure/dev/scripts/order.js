@@ -1,6 +1,5 @@
 //move to order.html when clicked single wine image
 $(document).ready(function () {
-
     $('.gallery img').click(function () {
         window.location.href = 'order.html';
     });
@@ -14,3 +13,12 @@ $('.show-detail img').click(function () {
     }
 });
 
+//magnify product image
+$('#detail-wine').mouseover(function () {
+    let val = this.src.substring(0, this.src.length - 6);
+    let zoomImageSrc = val + ".jpg";
+    $('.zoom').magnify({
+        speed: 200,
+        src: zoomImageSrc
+    });
+});

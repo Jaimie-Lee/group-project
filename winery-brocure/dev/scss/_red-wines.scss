@@ -1,3 +1,4 @@
+//red-wines.scss
 .red-wines-title h2 {
 
     color: rgb(102, 101, 101);
@@ -58,11 +59,13 @@
         grid-gap: 30px;
         grid-template-columns: repeat(2, 1fr);
     }
+
     /* min-width: 980px */
     @media (min-width: 980px) {
         grid-gap: 30px;
         grid-template-columns: repeat(3, 1fr);
     }
+
     /* min-width: 1200px */
     @media (min-width: 1200px) {
         grid-gap: 30px;

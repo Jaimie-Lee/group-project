@@ -1,7 +1,8 @@
+@charset "utf-8";
+
 // Resets
 @import 'resets';
 @import 'btn';
-
 
 // Site Sections
 @import 'nav';
@@ -21,3 +22,7 @@
 @import 'order';
 @import 'about-bistro';
 @import 'about-wine';
+@import 'bistro-menus';
+
+//Special Function Item
+@import 'magnify';
