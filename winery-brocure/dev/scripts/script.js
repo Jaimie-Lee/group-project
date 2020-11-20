@@ -35,6 +35,7 @@ $(window).scroll(function () {
         $('.header-logo img').attr('src', 'images/white-logo-medium.png');
         $('.menu-has-children').mouseenter(function () {
             $('.sub-menu').css('background', '#f5f5f5');
+            $('.sub-menu').css('border', '1px solid #eeeeee');
         });
 
     } else {
@@ -44,6 +45,7 @@ $(window).scroll(function () {
         $('.header-logo img').attr('src', 'images/white-logo.png');
         $('.menu-has-children').mouseenter(function () {
             $('.sub-menu').css('background', '#fff');
+            $('.sub-menu').css('border', '1px solid #e0e0e0');
         });
     }
 });

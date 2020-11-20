@@ -52,7 +52,7 @@
     text-align: center;
 }
 .section-container .special-span {
-    font-size: 1.8em;
+    font-size: 1.7em;
     line-height: 40px;
     color: black;
     font-family: 'Courier New', Courier, monospace;
@@ -64,7 +64,7 @@
     font-size: 1em;
     margin-top: 10px;
     margin-bottom: 20px;
-    line-height: 15px;
+    line-height: 20px;
     text-transform: uppercase;
 }
 
@@ -88,6 +88,15 @@
 .wine-col img:focus {
     border: 1px solid  rgba(231, 15, 15, 0.7);
     cursor: pointer;
+}
+
+.wine-col .price {
+    color: rgba(255, 0, 0, 0.9);
+}
+
+.wine-col p {
+    font-size: .9em;
+    text-transform: uppercase;
 }
 /* section : wines end*/
 
@@ -157,27 +166,30 @@
     }
     /* section : bistro end*/
 
-    /* section : shop-online start*/
-    .shop-online-title p:first-child {
-        font-size: 1em;
-        line-height: 20px;
-        margin-bottom: 20px;
+    /* section : wines start*/
+    .section-container .special-span {
+        font-size: 1.4em;
     }
-    /* section : shop-online end*/
 
-    /* section : wine-tour start*/
+    .section-container .special-p,
+    .wine-col p {
+        font-size: .7em;
+    }
+    /* section : wines end*/
+
+    /* section : shop-online & wine-tour start*/
+    .shop-online-title p:first-child,
     .tour-title p:first-child {
-        font-size: 1em;
-        line-height: 20px;
+        font-size: .9em;
+        line-height: 17px;
         margin-bottom: 20px;
     }
+    /* section : shop-online & wine-tou end*/
 }
-
 
 /* min-width: 760px */
 @media (min-width: 760px) {
 
-    
     /* bistro section start */
     .bistro h2 {
         padding: 50px;
@@ -187,9 +199,22 @@
     .bistro-title p:first-child {
         font-size: 1.5em;
         line-height: 30px;
-        margin-bottom: 20px;
     }
     /* bistro section end */
+
+    /* wines section start */
+    .section-container .special-span {
+        font-size: 1.5em;
+    }
+
+    .section-container .special-p {
+        font-size: .8em;
+    }
+
+    .wine-col p {
+        font-size: .7em;
+    }
+    /* wines section end */
 
     /* section : shop-online start*/
     .shop-online-title p:first-child {
@@ -203,7 +228,37 @@
         font-size: 1.5em;
         line-height: 30px;
     }
+    /* section : wine-tour end*/
 }
 
+/* min-width: 980px */
+@media (min-width: 980px) {
+
+    /* section : wines start*/
+    .section-container .special-span {
+        font-size: 1.7em;
+        line-height: 40px;
+    }
+
+    .section-container .special-p {
+        font-size: 1em;
+        line-height: 20px;
+    }
+
+    .wine-col p {
+        font-size: .9em;
+    }
+    /* section : wines end*/
+}
+
+/* min-width: 1200px */
+@media (min-width: 1200px) {
+
+    /* section : wines start*/
+    .wine-col p {
+        font-size: 1em;
+    }
+    /* section : wines end*/
+}
 
 
