@@ -1,20 +1,24 @@
 /* About bistro*/
 
-#about {
+#about__bistro {
  background-color: var(--color-beige);
  width: 100%;
  text-align: center;
 }
 
 .about__bistro {
- padding: 20px 0;
+ padding: 10px 0;
+ position: relative;
+ top: 40px;
  text-align: center;
+ align-items: center;
  background-color: var(--color-cocoa);
 }
 
-.about__description {
+.about__bistro__description {
  text-align: center;
- padding: 30px 30px;
+ margin-top: 20px;
+ padding: 50px 30px;
 }
 
 .about__bistro__name h2 {
@@ -27,7 +31,7 @@
  padding: 0px 20px 15px 20px;
 }
 
-.about__container {
+.about__bistro__container {
  display: flex;
  flex-direction: column;
  width: 90%;
@@ -35,7 +39,7 @@
  margin: 0px auto;
 }
 
-.about__container p {
+.about__bistro__container p {
  margin: 20px 0;
 }
 
@@ -51,7 +55,7 @@
  padding: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 759px) {
  :root {
   /* Font size */
   --font-large: 50px;
@@ -61,15 +65,73 @@
   --font-micro: 14px;
  }
 
+ .about__bistro {
+  padding: 10px 0;
+  position: relative;
+  top: 60px;
+ }
+
+ .about__bistro__description {
+  text-align: center;
+  margin-top: 40px;
+  padding: 50px 30px;
+ }
+
+ .bistro__container__second img {
+  padding: 50px 25px;
+ }
+}
+
+@media screen and (min-width: 979px) {
+ :root {
+  /* Font size */
+  --font-large: 50px;
+  --font-medium: 25px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+ }
+
+ .about__bistro {
+  padding: 30px 0;
+  position: relative;
+  top: 130px;
+ }
+
+ .about__bistro__description {
+  text-align: center;
+  margin-top: 120px;
+  padding: 60px 50px;
+ }
+}
+
+@media screen and (min-width: 1200px) {
+ :root {
+  /* Font size */
+  --font-large: 50px;
+  --font-medium: 25px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+ }
+
+ .about__bistro {
+  padding: 30px 0;
+  position: relative;
+  top: 200px;
+ }
+
+ .about__bistro__description {
+  text-align: center;
+  margin-top: 180px;
+  padding: 60px 300px;
+ }
+
  .bistro__container__second {
   display: flex;
   flex-direction: row;
   width: 90%;
   text-align: center;
   margin: 0 auto;
- }
-
- .bistro__container__second img {
-  padding: 50px 25px;
  }
 }

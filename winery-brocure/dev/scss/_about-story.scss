@@ -1,12 +1,12 @@
-//About main
+/* About story*/
 
-#about {
+#about__story {
  background-color: var(--color-beige);
  width: 100%;
  text-align: center;
 }
 
-.about__main {
+.about__story {
  padding: 10px 0;
  position: relative;
  top: 40px;
@@ -15,19 +15,13 @@
  background-color: var(--color-cocoa);
 }
 
-.about__description {
+.about__story__description {
  text-align: center;
  margin-top: 20px;
  padding: 50px 30px;
 }
 
-.about__main__name {
- margin-top: 50px;
- margin-bottom: 20px;
- font-weight: var(--weight-semi-bold);
-}
-
-.about__container {
+.about__story__container {
  display: flex;
  flex-direction: column;
  width: 90%;
@@ -35,24 +29,11 @@
  margin: 0px auto;
 }
 
-.about__wine__01 {
- padding: 10px 20px;
-}
-
-.about__majors__01 {
- text-align: center;
- padding: 25px;
- margin: 0;
-}
-
-.about__wine__02 {
- padding: 10px 20px;
-}
-
-.about__majors__02 {
- text-align: center;
- padding: 25px;
- margin: 0;
+.about__story__container p {
+ margin: 20px 0;
+ align-self: center;
+ max-width: 1200px;
+ padding: 0 50px;
 }
 
 @media screen and (min-width: 759px) {
@@ -64,51 +45,30 @@
   --font-small: 16px;
   --font-micro: 14px;
  }
- .about__main {
+
+ .about__story {
   padding: 10px 0;
   position: relative;
   top: 60px;
  }
 
- .about__description {
+ .about__story__description {
   text-align: center;
   margin-top: 40px;
   padding: 50px 30px;
  }
 
- .about__main__name {
-  text-align: left;
-  margin-left: 115px;
- }
- .about__container {
+ .about__story__container {
   display: grid;
-  grid-gap: 40px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.2fr;
- }
- .about__wine__01 {
-  width: 100%;
-  padding: 25px;
-  margin: 0;
-  grid-row: 1/3;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 50px;
+  margin: 0 auto;
+  padding: 50px 0;
  }
 
- .about__majors__01 {
-  align-self: center;
-  padding: 25px;
- }
-
- .about__wine__02 {
-  width: 100%;
-  padding: 25px;
-  margin: 0;
-  grid-row: 2/4;
- }
-
- .about__majors__02 {
+ .story__wine__img {
   grid-row: 3/4;
-  align-self: center;
-  padding: 25px;
  }
 }
 
@@ -122,13 +82,13 @@
   --font-micro: 14px;
  }
 
- .about__main {
+ .about__story {
   padding: 30px 0;
   position: relative;
   top: 130px;
  }
 
- .about__description {
+ .about__story__description {
   text-align: center;
   margin-top: 120px;
   padding: 60px 50px;
@@ -145,15 +105,19 @@
   --font-micro: 14px;
  }
 
- .about__main {
+ .about__story {
   padding: 30px 0;
   position: relative;
   top: 200px;
  }
 
- .about__description {
+ .about__story__description {
   text-align: center;
   margin-top: 180px;
   padding: 60px 300px;
+ }
+
+ .about__story__container p {
+  padding-right: 250px;
  }
 }

@@ -1,28 +1,25 @@
-@charset "utf-8";
-
 // Resets
-@import 'resets';
-@import 'btn';
+@import "resets";
+@import "btn";
 
 // Site Sections
-@import 'nav';
-@import 'wrapper';
-@import 'banner';
-@import 'page-nav';
-@import 'site';
-@import 'header';
-@import 'footer';
-@import 'variables';
-@import 'type';
+@import "nav";
+@import "wrapper";
+@import "banner";
+@import "page-nav";
+@import "site";
+@import "header";
+@import "footer";
+@import "variables";
+@import "type";
 
 //Page Sections
-@import 'index';
-@import 'white-wines';
-@import 'red-wines';
-@import 'order';
-@import 'about-bistro';
-@import 'about-wine';
-@import 'bistro-menus';
-
-//Special Function Item
-@import 'magnify';
+@import "index";
+@import "white-wines";
+@import "red-wines";
+@import "order";
+@import "about-bistro";
+@import "about-wine";
+@import "about-story";
+@import "about-tour";
+@import "about-contact";
