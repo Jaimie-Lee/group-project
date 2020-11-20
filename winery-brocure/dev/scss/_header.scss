@@ -125,6 +125,10 @@ header .full-site .left-side-menu ul li:hover .sub-menu {
     transition: all 0.5s 
 }
 
+.left-side-menu .menu .sub-menu li:hover {
+    width: 100%; 
+}
+
 header .full-site .left-side-menu .sub-menu li a {
     padding: 10px 30px 10px 15px;
     font-weight: 400;
