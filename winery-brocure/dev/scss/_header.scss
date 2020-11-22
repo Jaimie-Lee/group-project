@@ -193,7 +193,7 @@ header .full-site .left-side-menu .sub-menu li a {
 /* header full site nav menu end */
 
 /* min-width: 760px */
-@media (min-width: 760px) {
+@include mq($tablet){
 
     #menu-wrapper #hamburger-menu {
         margin: 23px;
@@ -214,7 +214,7 @@ header .full-site .left-side-menu .sub-menu li a {
 }
 
 /* min-width: 980px */
-@media (min-width: 980px) {
+@include mq($desktop-1){
     header .full-site {
         top: 0;
         left: 0;
@@ -237,7 +237,7 @@ header .full-site .left-side-menu .sub-menu li a {
 }
 
 /* min-width: 1200px */
-@media (min-width: 1200px) {
+@include mq($desktop-2){
     header .full-site {
         top: 0;
         left: 0;

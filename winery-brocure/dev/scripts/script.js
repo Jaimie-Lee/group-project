@@ -50,12 +50,44 @@ $(window).scroll(function () {
     }
 });
 
-//When clicked g-oup-to button
+//When clicked go-up-to button
+//& when clicked directions button
 $(document).ready(function () {
     $(".go-to-up").click(function (event) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
     });
+
+    $(".search-map").click(function () {
+        $('html,body').animate({
+            scrollTop: $(".map-container").offset().top
+        },
+            'slow');
+    });
+
+    $('.menu-m').mouseenter(function () {
+
+        $('#source-soup').attr('src', 'images/' + $(this).attr('id') + '.jpg');
+
+    });
+    $('.menu-s').mouseenter(function () {
+
+        $('#source-salad').attr('src', 'images/' + $(this).attr('id') + '.jpg');
+
+    });
+    $('.menu-l').mouseenter(function () {
+
+        $('#source-lunch').attr('src', 'images/' + $(this).attr('id') + '.jpg');
+
+    });
+    $('.menu-e').mouseenter(function () {
+
+        $('#source-entree').attr('src', 'images/' + $(this).attr('id') + '.jpg');
+
+    });
+
 });
+
+
 

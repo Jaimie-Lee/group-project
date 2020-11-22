@@ -33,6 +33,7 @@
     left: 0;
     font-size: 3em;
     letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .bistro-title p:first-child {
@@ -141,7 +142,7 @@
 /* section : wine-tour end*/
 
 /* min-width: 570px */
-@media (min-width: 570px) {
+@include mq($mobile){
 
     .index-wrapper {
         display: grid;
@@ -188,7 +189,7 @@
 }
 
 /* min-width: 760px */
-@media (min-width: 760px) {
+@include mq($tablet){
 
     /* bistro section start */
     .bistro h2 {
@@ -232,7 +233,7 @@
 }
 
 /* min-width: 980px */
-@media (min-width: 980px) {
+@include mq($desktop-1){
 
     /* section : wines start*/
     .section-container .special-span {
@@ -252,7 +253,7 @@
 }
 
 /* min-width: 1200px */
-@media (min-width: 1200px) {
+@include mq($desktop-2){
 
     /* section : wines start*/
     .wine-col p {

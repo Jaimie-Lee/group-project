@@ -77,7 +77,7 @@
 }
 
 /* min-width: 760px */
-@media (min-width: 760px) {
+@include mq($tablet){
 
     .site-wrapper {
         height: 300px;
@@ -101,7 +101,7 @@
 }
 
 /* min-width: 1200px */
-@media (min-width: 1200px) {
+@include mq($desktop-2){
    
     .site-wrapper .site-container {
         margin: 0 auto;

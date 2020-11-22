@@ -26,6 +26,11 @@
  --weight-regular: 400;
 }
 
+// Convert Px to Ems
+@function em($px, $bc: 16){
+    @return #{$px/$bc}em; 
+}
+
 // Media Query Breakpoints
 $desktop-2: em(1200);
 $desktop-1: em(979);

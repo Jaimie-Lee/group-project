@@ -26,13 +26,16 @@
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
     <!-- favicon end -->
+    <meta name="description"
+        content="Elizabeth Estate Winery provides visitors with a beautiful wine and spectacular experience. Visit our website for more.">
     <title>Elizabeth Estate Winery</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href= https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href=https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -47,7 +50,7 @@
             <ul class="menu-list accordion">
                 <li id="nav1" class="toggle accordion-toggle">
                     <span class="icon-plus"></span>
-                    <a class="menu-link" href="#">Wines</a>
+                    <a class="menu-link" href="#0">Wines</a>
                 </li>
                 <!-- accordion-toggle -->
                 <ul class="menu-submenu accordion-content">
@@ -61,7 +64,7 @@
                 <!-- menu-submenu accordon-content-->
                 <li id="nav2" class="toggle accordion-toggle">
                     <span class="icon-plus"></span>
-                    <a class="menu-link" href="#">Bistro</a>
+                    <a class="menu-link" href="#0">Bistro</a>
                 </li>
                 <!-- accordion-toggle -->
                 <ul class="menu-submenu accordion-content">
@@ -73,7 +76,7 @@
                 <!-- menu-submenu accordon-content-->
                 <li id="nav3" class="toggle accordion-toggle">
                     <span class="icon-plus"></span>
-                    <a class="menu-link" href="#">About</a>
+                    <a class="menu-link" href="#0">About</a>
                 </li>
                 <!-- accordion-toggle -->
                 <ul class="menu-submenu accordion-content">
@@ -84,7 +87,7 @@
                 <!-- menu-submenu accordon-content-->
                 <li id="nav4" class="toggle accordion-toggle">
                     <span class="icon-plus"></span>
-                    <a class="menu-link" href="#">Contact</a>
+                    <a class="menu-link" href="#0">Contact</a>
                 </li>
                 <!-- accordion-toggle -->
                 <ul class="menu-submenu accordion-content">
@@ -164,63 +167,90 @@
         </div><!-- mobile nav end-->
     </header>
 
-
-    <!--About contact-->
-    <section id="about__contact">
-      <div class="about__contact">
-        <h3>HOURS OF OPERATION & CONTACT US</h3>
-        <div class="about__contact__description">
-            <h1>Visit Us</h1>
-            <h3>7932 779 Street,<br>
-                Kelowna, BC V2E 1R3
-            </h3>
-            <button>DIRECTIONS</button>
-            <h2>778.683.9652</h2>
-            <P>Monday - Saturday <br>
-              11:30am - 4pm </P>
-            <p>Sunday<br>
-              Closed</p>
-        </div>
-      </div> 
-      <div class="about__contact__info">
-        <h2>General Inquires</h2>
-        <p>Please fill in all the required fields incicated by a red star.</p>  
-      
-        <form class="about__contact__form" action="#" method="post">
-          <fieldset>
-            <div class="about__contact__list">
-                <div class="contact__left__form">
-                  <label for="name">Full Name</label>
-                  <input class="c__name" type="text" id="name" name="user-name" placeholder="Enter your name">
-                  <label for="mail">E-mail</label>
-                  <input class="c__email" type="email" id="mail" name="user-email" placeholder="Enter your E-mail">
-                  <label for="mail">Phone</label>
-                  <input class="c__phone" type="phone" id="phone" name="user-phone" placeholder="Enter your phone number">
-                </div>
-            
-                <div class="contact__right__form">
-                  <label for ="subject" class = "subject">Subject</label>
-                  <div class="custom__dropdown">
-                    <select class="c-subject" name="subject" id="subject">
-                        <option value=selected>Select your subject</option>
-                        <option value="Location">Location</option>
-                        <option value="Payment">Payment</option>
-                        <option value="Order Status">Order Status</option>
-                        <option value="Shipping">Shipping</option>
-                        <option value="Gift Card">Gift Card</option>
-                        <option value="Other">Other</option>
-                    </select>
-                  </div> 
-                  <label class="c__message" for ="message">Message</label>
-                  <textarea name="user-massage" id="message" cols="30" rows="10"></textarea>
+    <main>
+        <!--About contact-->
+        <section id="about__contact">
+            <div class="about__contact">
+                <div class="about__contact__description">
+                    <h3>HOURS OF OPERATION & CONTACT US</h3>
+                    <h1>Visit Us</h1>
+                    <h3>7932 779 Street,<br>
+                        Kelowna, BC V2E 1R3
+                    </h3>
+                    <p>
+                        <a class="search-map" href="#google-map">Directions</a>
+                    </p>
+                    <h2>778.683.9652</h2>
+                    <P>Monday - Saturday <br>
+                        11:30am - 4pm </P>
+                    <p>Sunday - Closed</p>
                 </div>
             </div>
-          </fieldset>
-          <input class="about__contact__submit" type="submit" value="Submit">
-        </form>
-      </div>     
-    </section>
+            <div class="wrapper">
+                <div class="about__contact__info">
+                    <h2>General Inquiries</h2>
+                    <p>Please fill in all the required fields indicated by a red star.</p>
 
+                    <form class="about__contact__form" action="#0">
+                        <fieldset>
+                            <div class="about__contact__list">
+                                <div class="contact__left__form">
+                                    <label for="name">Full Name<span class="red-star">*</span></label>
+                                    <input class="c__name" type="text" id="name" name="user-name"
+                                        placeholder="Enter your name" required>
+                                    <label for="mail">Email<span class="red-star">*</span></label>
+                                    <input class="c__email" type="email" id="mail" name="user-email"
+                                        placeholder="Enter your Email" required>
+                                    <label for="phone">Phone<span class="red-star">*</span></label>
+                                    <input class="c__phone" type="tel" id="phone" name="user-phone"
+                                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Enter your phone number"
+                                        required>
+                                </div>
+
+                                <div class="contact__right__form">
+                                    <label for="subject" class="subject">Subject</label>
+                                    <div class="custom__dropdown">
+                                        <select class="c-subject" name="subject" id="subject">
+                                            <option value=selected>Select your subject</option>
+                                            <option value="Location">Location</option>
+                                            <option value="Payment">Payment</option>
+                                            <option value="Order Status">Order Status</option>
+                                            <option value="Shipping">Shipping</option>
+                                            <option value="Gift Card">Gift Card</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <label class="c__message" for="message">Message</label>
+                                    <textarea name="user-massage" id="message" cols="30" rows="10"></textarea>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <p>
+                            <input class="btn" type="submit" value="send">
+                        </p>
+                    </form>
+                </div>
+                <div class="map-container" id="google-map">
+                    <div class="location">
+                        <div class="location-info">
+                            <P><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;7932 779 Street, Kelowna,
+                                BC V2E 1R3</P>
+                            <p><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp;778.683.9652</p>
+                            <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;Monday-Saturday:<span
+                                    class="business-hour">11:30am -
+                                    4pm</span> | Sunday-<span class="business-hour">Closed</span></p>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7226.482808235587!2d-119.46528246802006!3d49.83379004589269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537d8b997f83aa75%3A0x8849d6d0375c9277!2sTantalus%20Vineyards!5e0!3m2!1sen!2sca!4v1605999660426!5m2!1sen!2sca"
+                            frameborder="0" style="border:1px solid rgb(141, 141, 141);" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <!-- footer site nav start -->
         <div class="site-wrapper">
             <div class="site-container">
@@ -263,19 +293,35 @@
                 </div>
             </div>
         </div> <!-- footer site nav end -->
+
     </main>
 
     <!-- footer start -->
     <footer>
         <div class="footer-wrapper">
             <div class="footer-container">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptates voluptas magnam unde
-                    dolorum cumque error quis ab aperiam deleniti, praesentium culpa eos odio fugit, quasi enim. Quam,
-                    quaerat unde.</p>
-                <p>(C) 2020 Elizabeth Estate Winery | 7932 779 Street, Kelowna, BC V2E 1R3 </p>
-                <p class="team-project">ONLY EDUCATIONAL PURPOSES ONLY.&nbsp;&nbsp;Made by&nbsp;<a
-                        href="http://jmlee.bcitwebdeveloper.ca/" target="_blank">Jaimie</a>&nbsp;&amp;&nbsp;<a
-                        href="http://slim.bcitwebdeveloper.ca/" target="_blank">Denis</a>.</p>
+                <div class="left-footer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptates voluptas magnam unde
+                        dolorum cumque error quis ab aperiam deleniti, praesentium culpa eos odio fugit, quasi enim.
+                        Quam,
+                        quaerat unde.</p>
+                    <p>(C) 2020 Elizabeth Estate Winery | 7932 779 Street, Kelowna, BC V2E 1R3 </p>
+                    <p class="team-project">FOR EDUCATIONAL PURPOSES ONLY.&nbsp;&nbsp;Design by&nbsp;<a
+                            href="http://jmlee.bcitwebdeveloper.ca/" target="_blank">Jaimie</a>&nbsp;&amp;&nbsp;<a
+                            href="http://slim.bcitwebdeveloper.ca/" target="_blank">Denis</a>.</p>
+                </div>
+                <div class="right-footer">
+                    <div class="social-container">
+                        <!--font awesome icon:twitter-->
+                        <a href="#0"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                        <!--font awesome icon:facebook-->
+                        <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                        <!--font awesome icon:instagram-->
+                        <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://unsplash.com/" target="_blank"><i class="fa fa-external-link"
+                                aria-hidden="true"></i>&nbsp;Credits</a>
+                    </div>
+                </div>
             </div>
             <div class="go-to-up">
                 <a href="#" class="btn-go-to-up"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>

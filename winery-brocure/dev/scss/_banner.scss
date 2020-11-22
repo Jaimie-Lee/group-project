@@ -51,7 +51,7 @@
 
 
 /* min-width: 760px */
-@media (min-width: 760px) {
+@include mq($tablet){
     /* hero content start */
     .hero-wrapper {
         max-width: 1260px;
@@ -69,7 +69,7 @@
 }
 
 /* min-width: 980px */
-@media (min-width: 980px) {
+@include mq($desktop-1){
     /* hero content start */
     .hero-content {
         width: 500px;
@@ -79,7 +79,7 @@
 
 
 /* min-width: 1200px */
-@media (min-width: 1200px) {
+@include mq($desktop-2){
 
     /* hero content start */
     .hero-content {

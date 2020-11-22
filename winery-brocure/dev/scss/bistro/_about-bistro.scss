@@ -1,7 +1,7 @@
 /* About bistro*/
 
 #about__bistro {
- background-color: var(--color-beige);
+ //background-color: var(--color-beige);
  width: 100%;
  text-align: center;
 }
@@ -12,11 +12,13 @@
  top: 40px;
  text-align: center;
  align-items: center;
- background-color: var(--color-cocoa);
+ //background-color: var(--color-cocoa);
+ border-bottom: 1px solid var(--color-cocoa);
+ letter-spacing: 3px;
 }
 
 .about__bistro__description {
- text-align: center;
+ text-align: left;
  margin-top: 20px;
  padding: 50px 30px;
 }
@@ -41,7 +43,7 @@
 }
 
 .about__bistro__container p {
- margin: 20px;
+ margin: 20px 0 50px;
  text-align: left;
 }
 
@@ -57,7 +59,8 @@
  padding: 20px;
 }
 
-@media screen and (min-width: 759px) {
+@include mq($tablet){
+
  :root {
   /* Font size */
   --font-large: 50px;
@@ -74,15 +77,20 @@
  }
 
  .about__bistro__description {
-  text-align: center;
+  //text-align: center;
   margin-top: 40px;
   padding: 50px 30px;
  }
+
+ .about__bistro__name p {
+    padding: 0px 30px 20px 40px;
+}
+
  .bistro__container__second {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-gap-columns: 30px;
+  //grid-gap-columns: 30px;
   grid-gap: 20px;
  }
  .bistro__container__second img {
@@ -90,7 +98,8 @@
  }
 }
 
-@media screen and (min-width: 980px) {
+@include mq($desktop-1){
+
  :root {
   /* Font size */
   --font-large: 50px;
@@ -107,13 +116,22 @@
  }
 
  .about__bistro__description {
-  text-align: center;
+  //text-align: center;
   margin-top: 180px;
   padding: 60px 50px;
  }
+
+ .about__bistro__name p {
+    padding: 0px 40px 20px 50px;
+ }
+
+ .about__bistro__container p {
+   line-height: 35px;
+  }
 }
 
-@media screen and (min-width: 1200px) {
+@include mq($desktop-2){
+
  :root {
   /* Font size */
   --font-large: 50px;
@@ -130,8 +148,13 @@
  }
 
  .about__bistro__description {
-  text-align: center;
+  //text-align: center;
   margin-top: 180px;
-  padding: 60px 300px;
+  padding: 60px 200px;
+  line-height: 30px;
+ }
+
+ .about__bistro__name p {
+    padding: 0px 50px 20px 60px;
  }
 }

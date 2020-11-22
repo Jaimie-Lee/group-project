@@ -35,6 +35,17 @@ footer .footer-container p:last-child {
     }
 }
 
+footer .social-container a {
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer .social-container a:hover {
+    color: rgb(255, 166, 0);
+}
+
 footer .go-to-up {
     z-index: 5;
     position: fixed;
@@ -61,6 +72,10 @@ footer .go-to-up a {
     background-color: transparent
 }
 
+footer .go-to-up i:hover {
+    color: rgb(255, 166, 0);
+}
+
 .footer-wrapper .btn-go-to-up {
     visibility: visible;
     opacity: 1;
@@ -71,18 +86,30 @@ footer .go-to-up .fa-chevron-up{
 }
 
 /* min-width: 760px */
-@media (min-width: 760px) {
+@include mq($tablet){
 
-    footer .footer-container p {
+    footer .footer-container p,
+    footer .social-container {
         text-align: left;
     }
 }
 
 /* min-width: 1200px */
-@media (min-width: 1200px) {
+@include mq($desktop-2){
 
     footer .footer-container {
+        display: flex;
         margin: 0 auto;
+        .left-footer {
+            width: 70%;
+        }
+        .right-footer {
+            padding-top: 5px;
+            width: 30%;
+            .social-container {
+               text-align: center;
+            }
+        }
     }
 
 }

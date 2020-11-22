@@ -26,11 +26,16 @@
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
     <!-- favicon end -->
+    <meta name="description"
+        content="Elizabeth Estate Winery provides visitors with a beautiful wine and spectacular experience. Visit our website for more.">
     <title>Elizabeth Estate Winery</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link
+        href=https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -45,7 +50,7 @@
             <ul class="menu-list accordion">
                 <li id="nav1" class="toggle accordion-toggle">
                     <span class="icon-plus"></span>
-                    <a class="menu-link" href="#">Wines</a>
+                    <a class="menu-link" href="#0">Wines</a>
                 </li>
                 <!-- accordion-toggle -->
                 <ul class="menu-submenu accordion-content">
@@ -59,7 +64,7 @@
                 <!-- menu-submenu accordon-content-->
                 <li id="nav2" class="toggle accordion-toggle">
                     <span class="icon-plus"></span>
-                    <a class="menu-link" href="#">Bistro</a>
+                    <a class="menu-link" href="#0">Bistro</a>
                 </li>
                 <!-- accordion-toggle -->
                 <ul class="menu-submenu accordion-content">
@@ -71,7 +76,7 @@
                 <!-- menu-submenu accordon-content-->
                 <li id="nav3" class="toggle accordion-toggle">
                     <span class="icon-plus"></span>
-                    <a class="menu-link" href="#">About</a>
+                    <a class="menu-link" href="#0">About</a>
                 </li>
                 <!-- accordion-toggle -->
                 <ul class="menu-submenu accordion-content">
@@ -82,7 +87,7 @@
                 <!-- menu-submenu accordon-content-->
                 <li id="nav4" class="toggle accordion-toggle">
                     <span class="icon-plus"></span>
-                    <a class="menu-link" href="#">Contact</a>
+                    <a class="menu-link" href="#0">Contact</a>
                 </li>
                 <!-- accordion-toggle -->
                 <ul class="menu-submenu accordion-content">
@@ -175,7 +180,7 @@
                         <div class="menu-container">
                             <div class="menu-item">
                                 <h4 class="menu-title">Soups</h4>
-                                <img src="images/soup.png" alt="vegetable corn soup">
+                                <img id="source-soup" src="images/m3.jpg" alt="Lebanese Lentil Soup">
                             </div>
                             <div class="items">
                                 <table>
@@ -186,16 +191,17 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>&#8227;&nbsp;Daily Soup-&5</td>
+                                            <td class="menu-m" id="m1">&#8227;&nbsp;Daily Soup-&5</td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;French Onion Artisanal Soup-$6</td>
+                                            <td class="menu-m" id="m2">&#8227;&nbsp;French Onion Artisanal Soup-$6
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;Lebanese Lentil Soup-$7</td>
+                                            <td class="menu-m" id="m3">&#8227;&nbsp;Lebanese Lentil Soup-$7</td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;Chicken Barley Soup-$8</td>
+                                            <td class="menu-m" id="m4">&#8227;&nbsp;Chicken Barley Soup-$8</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -205,7 +211,7 @@
                         <div class="menu-container">
                             <div class="menu-item">
                                 <h4 class="menu-title">Salads</h4>
-                                <img src="images/salad.png" alt="vegetable and cheese salad">
+                                <img id="source-salad" src="images/s2.jpg" alt="Rainbow Orzo Salad">
                             </div>
                             <div class="items">
                                 <table>
@@ -216,16 +222,17 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>&#8227;&nbsp;Shredded Brussels Sprout Salad-$5</td>
+                                            <td class="menu-s" id="s1">&#8227;&nbsp;Shredded Brussels Sprout Salad-$5
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;Rainbow Orzo Salad-$8</td>
+                                            <td class="menu-s" id="s2">&#8227;&nbsp;Rainbow Orzo Salad-$8</td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;Creamy Vegan Pasta Salad-$9</td>
+                                            <td class="menu-s" id="s3">&#8227;&nbsp;Creamy Vegan Pasta Salad-$9</td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;Broccoli Pasta Salad-$6</td>
+                                            <td class="menu-s" id="s4">&#8227;&nbsp;Broccoli Pasta Salad-$6</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -235,7 +242,7 @@
                         <div class="menu-container">
                             <div class="menu-item">
                                 <h4 class="menu-title">Lunch</h4>
-                                <img src="images/spaghetti.png" alt="spaghetti with shrimp lunch menu">
+                                <img id="source-lunch" src="images/l4.jpg" alt="Roasted Chicken with vegetables">
                             </div>
                             <div class="items">
                                 <table>
@@ -246,16 +253,17 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>&#8227;&nbsp;Mushrooms & Cheese Tart-$17</td>
+                                            <td class="menu-l" id="l1">&#8227;&nbsp;Mushrooms & Cheese Tart-$17</td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;Escargot a la Provencal-$25</td>
+                                            <td class="menu-l" id="l2">&#8227;&nbsp;Escargot a la Provencal-$25</td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;Rillettes-$15</td>
+                                            <td class="menu-l" id="l3">&#8227;&nbsp;Rillettes-$15</td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;Roasted Chicken with vegetables-$19</td>
+                                            <td class="menu-l" id="l4">&#8227;&nbsp;Roasted Chicken with vegetables-$19
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -265,7 +273,7 @@
                         <div class="menu-container">
                             <div class="menu-item">
                                 <h4 class="menu-title">Entrees</h4>
-                                <img src="images/beef-burger.png" alt="roasted beef burger">
+                                <img id="source-entree" src="images/e4.jpg" alt="Fraser Valley Duck Leg Confit">
                             </div>
                             <div class="items">
                                 <table>
@@ -276,16 +284,17 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>&#8227;&nbsp;QuichZa’atar Roasted Squash-$16</td>
+                                            <td class="menu-e" id="e1">&#8227;&nbsp;QuichZa’atar Roasted Squash-$16</td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;Pan-Roasted Ling Cod-$20</td>
+                                            <td class="menu-e" id="e2">&#8227;&nbsp;Pan-Roasted Ling Cod-$20</td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;Chicken Dijonnaise-$45</td>
+                                            <td class="menu-e" id="e3">&#8227;&nbsp;Chicken Dijonnaise-$45</td>
                                         </tr>
                                         <tr>
-                                            <td>&#8227;&nbsp;Fraser Valley Duck Leg Confit-$12</td>
+                                            <td class="menu-e" id="e4">&#8227;&nbsp;Fraser Valley Duck Leg Confit-$12
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -344,13 +353,28 @@
     <footer>
         <div class="footer-wrapper">
             <div class="footer-container">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptates voluptas magnam unde
-                    dolorum cumque error quis ab aperiam deleniti, praesentium culpa eos odio fugit, quasi enim. Quam,
-                    quaerat unde.</p>
-                <p>(C) 2020 Elizabeth Estate Winery | 7932 779 Street, Kelowna, BC V2E 1R3 </p>
-                <p class="team-project">ONLY EDUCATIONAL PURPOSES ONLY.&nbsp;&nbsp;Made by&nbsp;<a
-                        href="http://jmlee.bcitwebdeveloper.ca/" target="_blank">Jaimie</a>&nbsp;&amp;&nbsp;<a
-                        href="http://slim.bcitwebdeveloper.ca/" target="_blank">Denis</a>.</p>
+                <div class="left-footer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptates voluptas magnam unde
+                        dolorum cumque error quis ab aperiam deleniti, praesentium culpa eos odio fugit, quasi enim.
+                        Quam,
+                        quaerat unde.</p>
+                    <p>(C) 2020 Elizabeth Estate Winery | 7932 779 Street, Kelowna, BC V2E 1R3 </p>
+                    <p class="team-project">FOR EDUCATIONAL PURPOSES ONLY.&nbsp;&nbsp;Design by&nbsp;<a
+                            href="http://jmlee.bcitwebdeveloper.ca/" target="_blank">Jaimie</a>&nbsp;&amp;&nbsp;<a
+                            href="http://slim.bcitwebdeveloper.ca/" target="_blank">Denis</a>.</p>
+                </div>
+                <div class="right-footer">
+                    <div class="social-container">
+                        <!--font awesome icon:twitter-->
+                        <a href="#0"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                        <!--font awesome icon:facebook-->
+                        <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                        <!--font awesome icon:instagram-->
+                        <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://unsplash.com/" target="_blank"><i class="fa fa-external-link"
+                                aria-hidden="true"></i>&nbsp;Credits</a>
+                    </div>
+                </div>
             </div>
             <div class="go-to-up">
                 <a href="#" class="btn-go-to-up"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
@@ -360,7 +384,6 @@
     <!-- footer end -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="./scripts/script.js"></script>
-    <script src="./scripts/order.js"></script>
 </body>
 
 </html>

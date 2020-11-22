@@ -14,7 +14,7 @@
         text-transform: uppercase;
     
         /* min-width: 980px */
-        @media (min-width: 980px) {
+        @include mq($desktop-1){
             font-size: 2.5em;
             letter-spacing: 3px;
             margin-top: 200px;
@@ -22,7 +22,7 @@
         }
     
         /* min-width: 1200px */
-        @media (min-width: 1200px) {
+        @include mq($desktop-2){
             font-size: 3em;
             letter-spacing: 5px;
             margin-top: 300px;
@@ -93,7 +93,7 @@
                 }
                 
                 /* min-width: 570px */
-                @media (min-width: 570px) {
+                @include mq($mobile){
                     display: grid;
                     grid-gap: 1px;
                     grid-template-columns: repeat(2, 1fr);
@@ -128,7 +128,7 @@
                 }
 
                 /* min-width: 760px */
-                 @media (min-width: 760px) {
+                @include mq($tablet){
 
                     .menu-item {
                         .menu-title {
@@ -161,7 +161,7 @@
                 } 
 
                 /* min-width: 980px */
-                 @media (min-width: 980px) {
+                @include mq($desktop-1){
 
                     .menu-item {
                         .menu-title {
@@ -191,7 +191,7 @@
                     }
                 } 
                 /* min-width: 1200px */
-                 @media (min-width: 1200px) {
+                @include mq($desktop-2){
                     .items {
 
                         th {

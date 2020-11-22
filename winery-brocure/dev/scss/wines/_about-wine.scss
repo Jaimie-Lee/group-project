@@ -1,7 +1,7 @@
 //About main
 
 #about {
- background-color: var(--color-beige);
+ //background-color: var(--color-beige);
  width: 100%;
  text-align: center;
 }
@@ -12,13 +12,15 @@
  top: 40px;
  text-align: center;
  align-items: center;
- background-color: var(--color-cocoa);
+ //background-color: var(--color-cocoa);
+ border-bottom: 1px solid var(--color-cocoa);
+ letter-spacing: 3px;
 }
 
 .about__description {
- text-align: center;
+ text-align: left;
  margin-top: 20px;
- padding: 50px 30px;
+ padding: 50px 37px;
 }
 
 .about__main__name {
@@ -40,7 +42,7 @@
 }
 
 .about__majors__01 {
- text-align: center;
+ text-align: left;
  padding: 25px;
  margin: 0;
 }
@@ -50,12 +52,13 @@
 }
 
 .about__majors__02 {
- text-align: center;
+ text-align: left;
  padding: 25px;
  margin: 0;
 }
 
-@media screen and (min-width: 759px) {
+@include mq($tablet){
+
  :root {
   /* Font size */
   --font-large: 50px;
@@ -71,7 +74,7 @@
  }
 
  .about__description {
-  text-align: center;
+  //text-align: center;
   margin-top: 40px;
   padding: 50px 30px;
  }
@@ -80,12 +83,14 @@
   text-align: left;
   margin-left: 115px;
  }
+
  .about__container {
   display: grid;
   grid-gap: 40px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.5fr 0.5fr 0.5fr 0.2fr;
  }
+
  .about__wine__01 {
   width: 100%;
   padding: 25px;
@@ -112,7 +117,7 @@
  }
 }
 
-@media screen and (min-width: 979px) {
+@include mq($desktop-1){
  :root {
   /* Font size */
   --font-large: 50px;
@@ -129,13 +134,17 @@
  }
 
  .about__description {
-  text-align: center;
+  //text-align: center;
   margin-top: 120px;
   padding: 60px 50px;
  }
+ .about__container p {
+    line-height: 35px;
 }
 
-@media screen and (min-width: 1200px) {
+}
+
+@include mq($desktop-2){
  :root {
   /* Font size */
   --font-large: 50px;
@@ -152,8 +161,8 @@
  }
 
  .about__description {
-  text-align: center;
   margin-top: 180px;
-  padding: 60px 300px;
+  padding: 60px 200px;
+  line-height: 30px;
  }
 }

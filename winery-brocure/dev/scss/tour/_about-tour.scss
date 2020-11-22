@@ -1,8 +1,9 @@
 /* About tour*/
 
 #about__tour {
- background-color: var(--color-beige);
+ //background-color: var(--color-beige);
  width: 100%;
+ margin-bottom: 50px;
 }
 
 .about__tour {
@@ -40,7 +41,8 @@
  padding: 10px 50px 20px 50px;
 }
 
-@media screen and (min-width: 759px) {
+@include mq($tablet){
+//@media screen and (min-width: 759px) {
  :root {
   /* Font size */
   --font-large: 50px;
@@ -58,7 +60,8 @@
  }
 }
 
-@media screen and (min-width: 979px) {
+@include mq($desktop-1){
+//@media screen and (min-width: 979px) {
  :root {
   /* Font size */
   --font-large: 50px;
@@ -80,7 +83,8 @@
  }
 }
 
-@media screen and (min-width: 1200px) {
+@include mq($desktop-2){
+//@media screen and (min-width: 1200px) {
  :root {
   /* Font size */
   --font-large: 50px;
